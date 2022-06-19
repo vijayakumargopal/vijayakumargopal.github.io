@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <title>Vijayakumar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_styles.css" />
+  </head>
+  <body>
+      <button class="tablink" onclick="openPage('Home', this, 'red')"><img src="user.png" style="width:21px; height:18px;"> ABOUT ME</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen"><img src="user.png" style="width:21px; height:18px;"> RESUME</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')"><img src="user.png" style="width:21px; height:18px;"> PORTFOLIO</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')"><img src="user.png" style="width:21px; height:18px;"> CONTACT ME</button>
+  
+  <div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
 
-<h1>Under Development</h1>
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
 
-</body>
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+  
+  </body>
+  <script src="functions.js"></script>
 </html>
