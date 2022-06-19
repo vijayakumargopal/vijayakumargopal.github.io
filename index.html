@@ -6,29 +6,59 @@
     <link rel="stylesheet" href="index_styles.css" />
   </head>
   <body>
-      <button class="tablink" onclick="openPage('Home', this)"><img src="user.png" style="width:21px; height:18px;"> ABOUT ME</button>
-<button class="tablink" onclick="openPage('News', this)" id="defaultOpen"><img src="resume.png" style="width:21px; height:18px;"> RESUME</button>
-<button class="tablink" onclick="openPage('Contact', this)"><img src="book.png" style="width:21px; height:18px;"> PORTFOLIO</button>
-<button class="tablink" onclick="openPage('About', this)"><img src="contact.png" style="width:21px; height:18px;"> CONTACT ME</button>
+      <button class="tablink" onclick="openPage('AboutMe', this)"><img src="user.png" style="width:21px; height:18px;"> ABOUT ME</button>
+<button class="tablink" onclick="openPage('Resume', this)" id="defaultOpen"><img src="resume.png" style="width:21px; height:18px;"> RESUME</button>
+<button class="tablink" onclick="openPage('Portfolio', this)"><img src="book.png" style="width:21px; height:18px;"> PORTFOLIO</button>
+<button class="tablink" onclick="openPage('contact', this)"><img src="contact.png" style="width:21px; height:18px;"> CONTACT ME</button>
   
-  <div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+<div id="AboutMe" class="tabcontent">
+  <div style="float:left; width: 20%; margin-left: 6%; background-color: white;">
+    <h4 style="margin: 0; padding: 10px;"> </h4>
+    <img src="vijay.jpg" style="height: 250px; width: -webkit-fill-available; padding:5px;">
+     <div>
+       <table style="font-size:13px; font-family: system-ui; margin: auto; padding-bottom: 10px;">
+         <tr><td>NAME</td><td>VIJAYAKUMAR</td></tr>
+         <tr><td>AGE</td><td>25</td></tr>
+         <tr><td>LOCATION</td><td>Salem, Tamilnadu</td></tr>
+         <tr><td>Experience</td><td>4.5 years</td></tr>
+         <tr><td>DEGREE</td><td>BE-ECE</td></tr>
+        </table>
+    </div>
+  </div> 
+  
+  <div style="fload: right; width: 70%; background-color: white; padding: 10px;">
+    <h4 style="margin: 0; border-bottom: 1px solid #d9d9d9; padding:10px;"> ABOUT ME </h4>
+    <div>
+      <h5 style="margin-top: 3.5%; padding: 10px;"> I'M A TEST AUTOMATION ENGINEER</h5>
+      <p style="padding: 10px"> 
+      Developing the Automation scripts for web based application using <span style="font-weight: bold"> Python and Selenium Web-Driver with PyTest & Robot Framework</span>
+        for Agile methodologies. Also Involved in Creating Test-cases, Automation Test-Scripts, reviewing others code, Monitoring the daily outputs of automation, Debugging, Issue reporting and Elimination defects
+        and errors with product and software development. Also having experience in Interacting with clients regarding Test-data and Requirements.
+      </p>
+    </div>
+    <div>
+      <h5 style="margin-top: 3.5%; padding: 10px;"> OTHER ACTIVITIES</h5>
+      <p style="padding: 10px"> 
+        I am also passionate about Backend Developing.  Create few web based applications for Internal purpose, to explore the Daily executions of automation scripts, TRACE tool,
+        and Dashboard to show the test results data in UI. Technologies used, Python, Flask, SQLite, HML, CSS, JS.
+      </p>
+    </div>
+  </div>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p> 
+<div id="Resume" class="tabcontent">
+  <h3>Resume</h3>
+  <p>Under developig...</p> 
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+<div id="Portfolio" class="tabcontent">
+  <h3>Portolio</h3>
+  <p>Under developing...</p>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
+<div id="contact" class="tabcontent">
+  <h3>Contact details</h3>
+  <p>Uner developing...</p>
 </div>
   
   </body>
