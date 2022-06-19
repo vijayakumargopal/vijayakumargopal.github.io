@@ -17,7 +17,8 @@ body, html {
 }
 
 .tablink:hover {
-  background-color: #366bb7;
+  background-color: #0c3e878f;
+  color: white;
 }
 
 .tabcontent {
