@@ -3,8 +3,9 @@ body, html {
     margin: 0;
     font-family: Arial;
     background-color: #4c4a4a1c;
-    OVERFLOW: hidden;
+    
 }
+
 
 .tablink {
   background-color: white;
@@ -25,7 +26,6 @@ body, html {
 
 .tabcontent {
   color: black;
-  display: none;
   padding: 100px 20px;
   height: 100%;
 }
