@@ -1,15 +1,5 @@
-function openPage(pageName,elmnt) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-
+function active_status_change(e, data){
+	var actived = document.getElementsByClassName("active");
+	actived[0].className = "";
+	data.parentElement.className = "active";
 }
-
-document.getElementById("defaultOpen").click();
