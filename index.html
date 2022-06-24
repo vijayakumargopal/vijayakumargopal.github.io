@@ -2,14 +2,27 @@
 <html>
   <head>
     <title>Vijayakumar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index_styles.css" />
+	
   </head>
-  <body>
-      <button class="tablink" onclick="openPage('AboutMe', this)"  id="defaultOpen"><img src="user.png" style="width:21px; height:18px;"> ABOUT ME</button>
-<button class="tablink" onclick="openPage('Resume', this)" id="defaultOpen"><img src="resume.png" style="width:21px; height:18px;"> RESUME</button>
-<button class="tablink" onclick="openPage('Portfolio', this)"><img src="book.png" style="width:21px; height:18px;"> PORTFOLIO</button>
-<button class="tablink" onclick="openPage('contact', this)"><img src="contact.png" style="width:21px; height:18px;"> CONTACT ME</button>
+  
+<body>
+
+<nav class="navbar navbar-inverse" style="position: fixed;width: -webkit-fill-available;">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav"  id="nav_bar">
+      <li class="active"><a  onclick="active_status_change(event, this)" href="#"> <img src="user.png" style="width:21px; height:18px;"> ABOUT ME </a></li>
+      <li><a href="#Resume"  onclick="active_status_change(event, this)"> <img src="user.png" style="width:21px; height:18px;"> RESUME </a></li>
+      <li><a href="#Portfolio"  onclick="active_status_change(event, this)"> <img src="book.png" style="width:21px; height:18px;">  PORTFOLIO </a></li>
+	  <li><a href="#contact"  onclick="active_status_change(event, this)"> <img src="contact.png" style="width:21px; height:18px;"> CONTACT ME </a></li>
+    </ul>
+  </div>
+</nav>
   
 <div id="AboutMe" class="tabcontent">
   <div style="float:left; width: 20%; margin-left: 6%; background-color: white;">
