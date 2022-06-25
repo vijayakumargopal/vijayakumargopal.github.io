@@ -14,13 +14,22 @@
 <body>
 
 <nav class="navbar navbar-inverse" style="position: fixed;width: -webkit-fill-available;">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav"  id="nav_bar">
-      <li class="active"><a  onclick="active_status_change(event, this)" href="#"> <img src="user.png" style="width:21px; height:18px;"> ABOUT ME </a></li>
-      <li><a href="#Resume"  onclick="active_status_change(event, this)"> <img src="user.png" style="width:21px; height:18px;"> RESUME </a></li>
-      <li><a href="#Portfolio"  onclick="active_status_change(event, this)"> <img src="book.png" style="width:21px; height:18px;">  PORTFOLIO </a></li>
-	  <li><a href="#contact"  onclick="active_status_change(event, this)"> <img src="contact.png" style="width:21px; height:18px;"> CONTACT ME </a></li>
-    </ul>
+  <div class="container-fluid"><div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+	<div class="collapse navbar-collapse">
+		<ul class="nav navbar-nav"  id="nav_bar">
+		  <li class="active"><a  onclick="active_status_change(event, this)" href="#"> <img src="user.png" style="width:21px; height:18px;"> ABOUT ME </a></li>
+		  <li><a href="#Resume"  onclick="active_status_change(event, this)"> <img src="user.png" style="width:21px; height:18px;"> RESUME </a></li>
+		  <li><a href="#Portfolio"  onclick="active_status_change(event, this)"> <img src="book.png" style="width:21px; height:18px;">  PORTFOLIO </a></li>
+		  <li><a href="#contact"  onclick="active_status_change(event, this)"> <img src="contact.png" style="width:21px; height:18px;"> CONTACT ME </a></li>
+		</ul>
+		<div>
   </div>
 </nav>
   
