@@ -2,33 +2,10 @@ body, html {
     height: -webkit-fill-available;
     margin: 0;
     font-family: Arial;
-    background-color: #4c4a4a1c;
-    
+   
+    padding-top: 42px;
 }
 
-
-.tablink {
-  background-color: white;
-  color: black;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #0c3e878f;
-  color: white;
-}
-
-.tabcontent {
-  color: black;
-  padding: 100px 20px;
-  height: 100%;
-}
 
 th, td{
   padding: 5px;
@@ -42,4 +19,45 @@ td:first-child{
 p{
   font-size: 16px;
   font-family: system-ui;
+}
+
+#Resume{
+	margin-top: 20px;
+}
+
+.first_line{
+	font-style: normal;
+    font-weight: 700;
+    font-size: normal;
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: uppercase;
+    font-size: 24px!important;
+	padding-bottom: 5px;
+}
+
+.second_line{
+	font-style: normal;
+    font-weight: 700;
+    font-size: normal;
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: uppercase;
+    font-size: 18px!important;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d9d9d9; 
+
+}
+
+.third_line{
+	font-style: normal;
+    font-weight: 700;
+    font-size: normal;
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: uppercase;
+    font-size: 16px!important;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d9d9d9; 
+
 }
