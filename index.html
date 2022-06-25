@@ -11,78 +11,90 @@
 	
   </head>
   
-<body>
-
-<nav class="navbar navbar-inverse" style="position: fixed;width: -webkit-fill-available;">
-  <div class="container-fluid"><div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-    </div>
-	<div class="collapse navbar-collapse"  id="myNavbar">
-		<ul class="nav navbar-nav"  id="nav_bar">
-		  <li class="active"><a  onclick="active_status_change(event, this)" href="#"> <img src="user.png" style="width:21px; height:18px;"> ABOUT ME </a></li>
-		  <li><a href="#Resume"  onclick="active_status_change(event, this)"> <img src="user.png" style="width:21px; height:18px;"> RESUME </a></li>
-		  <li><a href="#Portfolio"  onclick="active_status_change(event, this)"> <img src="book.png" style="width:21px; height:18px;">  PORTFOLIO </a></li>
-		  <li><a href="#contact"  onclick="active_status_change(event, this)"> <img src="contact.png" style="width:21px; height:18px;"> CONTACT ME </a></li>
-		</ul>
-		<div>
-  </div>
-</nav>
-  
-<div id="AboutMe" class="tabcontent">
-  <div style="float:left; width: 20%; margin-left: 6%; background-color: white;">
-    <h4 style="margin: 0; padding: 10px;"> PROFESSIONAL DETAILS </h4>
-    <center><img src="vijay.jpg" style="height: 250px; width: 200px; padding:5px;"></center>
-     <div>
-       <table style="font-size:13px; font-family: system-ui; margin: auto; padding-bottom: 10px;">
-         <tr><td>NAME</td><td>VIJAYAKUMAR</td></tr>
-         <tr><td>AGE</td><td>25</td></tr>
-         <tr><td>LOCATION</td><td>Salem, Tamilnadu</td></tr>
-         <tr><td>Experience</td><td>4.5 years</td></tr>
-         <tr><td>DEGREE</td><td>BE-ECE</td></tr>
-        </table>
-    </div>
-  </div> 
-  
-  <div style="float: right; width: 70%; background-color: white; padding: 10px;">
-    <h4 style="margin: 0; border-bottom: 1px solid #d9d9d9; padding:10px;"> ABOUT ME </h4>
-    <div>
-      <h5 style="margin-top: 3.5%; padding: 10px;"> I'M A TEST AUTOMATION ENGINEER</h5>
-      <p style="padding: 10px"> 
-      Developing the Automation scripts for web based application using <span style="font-weight: bold"> Python and Selenium Web-Driver with PyTest & Robot Framework</span>
-        for Agile methodologies. Also Involved in Creating Test-cases, Automation Test-Scripts, reviewing others code, Monitoring the daily outputs of automation, Debugging, Issue reporting and Elimination defects
-        and errors with product and software development. Also having experience in Interacting with clients regarding Test-data and Requirements.
-      </p>
-    </div>
-    <div>
-      <h5 style="margin-top: 3.5%; padding: 10px;"> OTHER ACTIVITIES</h5>
-      <p style="padding: 10px"> 
-        I am also passionate about Backend Developing.  Create few web based applications for Internal purpose, to explore the Daily executions of automation scripts, TRACE tool,
-        and Dashboard to show the test results data in UI. Technologies used, Python, Flask, SQLite, HML, CSS, JS.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div id="Resume" class="tabcontent">
-  <h3>Resume</h3>
-  <p>Under developig...</p> 
-</div>
-
-<div id="Portfolio" class="tabcontent">
-  <h3>Portolio</h3>
-  <p>Under developing...</p>
-</div>
-
-<div id="contact" class="tabcontent">
-  <h3>Contact details</h3>
-  <p>Uner developing...</p>
-</div>
-  
+<body> 
+	<nav class="navbar navbar-inverse col-sm-12" style="top:0; position:fixed; z-index: 3; height:51px; width: -webkit-fill-available;">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+		  
+		</div>
+		<div class="collapse navbar-collapse"  id="myNavbar" style="z-index: 3">
+			<ul class="nav navbar-nav"  id="nav_bar">
+			  <li class="active"><a  onclick="active_status_change(event, this)" href="#" style="z-index: 3"> <img src="user.png" style="width:21px; height:18px;"> ABOUT ME </a></li>
+			  <li><a href="#Resume"  onclick="active_status_change(event, this)"  style="z-index: 3"> <img src="user.png" style="width:21px; height:18px;"> RESUME </a></li>
+			  <li><a href="#Portfolio"  onclick="active_status_change(event, this)"> <img src="book.png" style="width:21px; height:18px;">  PORTFOLIO </a></li>
+			  <li><a href="#contact"  onclick="active_status_change(event, this)"> <img src="contact.png" style="width:21px; height:18px;"> CONTACT ME </a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<!--  About Me    -->
+	<div class="container" style="z-index: -1">
+			<div class="row" >
+			
+				<!--  Photo and details    -->
+				<div class="col-sm-3" style="float:left;background-color: #eeeeee;">
+						<h4 style="padding: 10px;"> PROFESSIONAL DETAILS </h4>
+						<div><center><img src="vijay.jpg" style="height: 250px; width: 200px; padding:5px;"></center></div>
+						<div>
+							<table style="font-size:13px; font-family: system-ui; margin: auto; padding-bottom: 10px;">
+								<tr><td>NAME</td><td>VIJAYAKUMAR</td></tr>
+								<tr><td>AGE</td><td>25</td></tr>
+								<tr><td>LOCATION</td><td>Salem, Tamilnadu</td></tr>
+								<tr><td>Experience</td><td>4.5 years</td></tr>
+								<tr><td>DEGREE</td><td>BE-ECE</td></tr>
+							</table>
+						</div>
+					</div> 
+				
+				
+				<!--  Professional Data    -->
+				<div class="col-sm-9">
+					<div style="float: right; background-color: #eeeeee; padding: 10px; padding-color: white;">
+						<h4 style="margin: 0; border-bottom: 1px solid #d9d9d9; padding:10px;"> ABOUT ME </h4>
+						<div>
+							<h5 style="margin-top: 3.5%; padding: 10px;"> I'M A TEST AUTOMATION ENGINEER</h5>
+							<p style="padding: 10px"> 
+								Developing the Automation scripts for web based application using <span style="font-weight: bold"> Python and Selenium Web-Driver with PyTest & Robot Framework</span>
+								for Agile methodologies. Also Involved in Creating Test-cases, Automation Test-Scripts, reviewing others code, Monitoring the daily outputs of automation, Debugging, Issue reporting and Elimination defects
+								and errors with product and software development. Also having experience in Interacting with clients regarding Test-data and Requirements.
+							</p>
+						</div>
+						<div style="padding-bottom:10px">
+							  <h5 style="margin-top: 3.5%; padding: 10px;"> OTHER ACTIVITIES</h5>
+							  <p style="padding: 10px"> 
+								I am also passionate about Backend Developing.  Create few web based applications for Internal purpose, to explore the Daily executions of automation scripts, TRACE tool,
+								and Dashboard to show the test results data in UI. Technologies used,  <span style="font-weight: bold"> Python, Flask, SQLite, HML, CSS, JS.</span>
+							  </p>
+						</div>
+				  </div>
+				</div>
+			</div>	
+	</div>	
+	
+	
+	<!--  Resume    -->
+	<div class="container">
+		<div  id="Resume">
+			<div class="row"><div class="col-sm-12" style="text-align:center; padding:10px"> ABOUT MY EXPERIENCE & SKILLS  </div> </div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div style="" class="first_line"> Work Experience </div>
+					<div style="" class="second_line"> excution tool </div>
+					<div style="" class="third_line"> hcl technologies </div>
+				</div>
+				<div class="col-sm-6">
+				<p> data </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
   </body>
   <script src="functions.js"></script>
 </html>
