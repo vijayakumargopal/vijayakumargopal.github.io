@@ -33,7 +33,8 @@ p{
     text-transform: uppercase;
     text-decoration: uppercase;
     font-size: 24px!important;
-	padding-bottom: 5px;
+	margin-bottom: 8px;
+	margin-top: 5px;
 }
 
 .second_line{
@@ -45,7 +46,7 @@ p{
     text-decoration: uppercase;
     font-size: 18px!important;
 	padding-bottom: 2px;
-	padding-top: 5px;
+	margin-top: 5px;
 	border-bottom: 1px solid #d9d9d9; 
 
 }
@@ -60,6 +61,7 @@ p{
     font-size: 16px!important;
 	padding-bottom: 2px;
 	border-bottom: 1px solid #d9d9d9; 
+	margin-top: 5px;
 }
 
 .date_style{
@@ -69,17 +71,31 @@ p{
 	font-family: 'Ubuntu'!important;
 	font-size: 16px!important;
 	word-break: normal;
-	    display: inline-block!important;
+	display: inline-block!important;
     white-space: normal;
-	    font-kerning: normal;
+	font-kerning: normal;
     text-rendering: optimizeLegibility;
 }
 
 .skill{
-	text-align: center;
+    text-align: center;
     padding: 8px;
-    background-color: #cfc1c1;
+    background-color: #7271719c;
     border-radius: 10px;
+    margin: 2px;
+    color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.interest{
+	
+	background-color: white;
     color: black;
-	margin: 2px;
+    border: 1px solid #c7c3c3;
+    border-radius: 8px;
+    padding: 8px 22px 8px 22px;
+    font-size: 16px;
+    font-family: 'Ubuntu'!important;
+    font-weight: 400;
+    text-align: center;
 }
