@@ -45,6 +45,7 @@ p{
     text-decoration: uppercase;
     font-size: 18px!important;
 	padding-bottom: 2px;
+	padding-top: 5px;
 	border-bottom: 1px solid #d9d9d9; 
 
 }
@@ -59,5 +60,26 @@ p{
     font-size: 16px!important;
 	padding-bottom: 2px;
 	border-bottom: 1px solid #d9d9d9; 
+}
 
+.date_style{
+	font-style: italic;
+    color: #978a8a;
+    text-transform: none;
+	font-family: 'Ubuntu'!important;
+	font-size: 16px!important;
+	word-break: normal;
+	    display: inline-block!important;
+    white-space: normal;
+	    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.skill{
+	text-align: center;
+    padding: 8px;
+    background-color: #cfc1c1;
+    border-radius: 10px;
+    color: black;
+	margin: 2px;
 }
