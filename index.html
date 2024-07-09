@@ -2,14 +2,16 @@
 <html>
   <head>
     <title>Vijayakumar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="index_styles.css" />
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="index_styles.css" />
   </head>
+  <script src="functions.js">
+
+  </script>
   
 <body> 
 	<nav class="navbar navbar-inverse col-sm-12" style="top:0; z-index:3; position:fixed; height:51px; width: -webkit-fill-available;">
@@ -20,7 +22,6 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>                        
 			</button>
-		  
 		</div>
 		<div class="collapse navbar-collapse"  id="myNavbar">
 			<div class="navbar-header">
@@ -48,11 +49,15 @@
 								<tr><td>Name</td><td>VIJAYAKUMAR</td></tr>
 								<tr><td>Date of Birth</td><td>25-May-1996</td></tr>
 								<tr><td>Location</td><td>Salem, Tamilnadu</td></tr>
-								<tr><td>Experience</td><td>5 Years 2 Months</td></tr>
+								<tr><td>Experience</td><td id="yearsExp"></td></tr>
 								<tr><td>Education</td><td>BE-ECE</td></tr>
 							</table>
 						</div>
 				</div> 
+				<script>
+					return_experience();
+				</script>
+				
 				
 				
 				<!--  Professional Data    -->
@@ -68,10 +73,18 @@
 							</p>
 						</div>
 						<div style="padding-bottom:10px">
+							<h5 style="margin-top: 3.5%; padding: 5px;"> AUTOMATION FRAMEWORKS </h5>
+							<p style="padding: 5px;"> 
+							  Developed the Hybird framework for web automation using Python, Selenium Webdriver, Pytest, POM pattern, etc., You can get the flow of framework
+							  in the below Repository link.  <br>
+							  Repository Link: <a href="https://github.com/vijayakumargopal/Trello---POM-Pytest-Demo"> Pytest Hybrid Framework Demo with Trello Website </a>
+							</p>
+					  </div>
+						<div style="padding-bottom:10px">
 							  <h5 style="margin-top: 3.5%; padding: 10px;"> OTHER ACTIVITIES</h5>
 							  <p style="padding: 10px"> 
 								I am also passionate about Backend Developing.  Create few web based applications for Internal purpose, to explore the Daily executions of automation scripts, TRACE tool,
-								and Dashboard to show the test results data in UI. Technologies used,  <span style="font-weight: bold"> Python, Flask, SQLite, HML, CSS, JS.</span>
+								and Dashboard to show the test results data in UI. Technologies used,  <span style="font-weight: bold"> Python, Flask, SQLite, HTML, CSS, JS.</span>
 							  </p>
 						</div>
 				  </div>
@@ -116,7 +129,7 @@
 					<p>- Maintaining the server, Adding new features as per the client/user need </p>
 					
 					<!--  ROWL - HCL TECHNOLOGIES  -->
-					<div  class="third_line"> hcl technologies, chennai <span class="date_style"> &nbsp;  01-July-2021 - present</span> </div>
+					<div  class="third_line"> hcl technologies, chennai <span class="date_style"> &nbsp;  01-July-2021 - 20-Oct-2022</span> </div>
 					<div  class="second_line"> NPP SIMULATOR </div>
 					<h4> Achievements/Tasks </h4>
 					<p>- Developing the automation scripts to verify functionalities of software application using Squish tool and Robot Framework </p>
@@ -234,5 +247,5 @@
 	
 	
   </body>
-  <script src="functions.js"></script>
+
 </html>
